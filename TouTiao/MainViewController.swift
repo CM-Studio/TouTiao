@@ -19,7 +19,6 @@ class MainViewController: NSViewController {
         }
         
         popover.contentViewController = PopViewController(nibName: "PopViewController", bundle: nil)
-        
     }
     
     override func viewDidLoad() {
