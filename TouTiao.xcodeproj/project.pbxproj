@@ -12,6 +12,9 @@
 		0673B7401CAE2D06001FBF40 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0673B73E1CAE2D06001FBF40 /* MainMenu.xib */; };
 		0673B74B1CAE2D06001FBF40 /* TouTiaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B74A1CAE2D06001FBF40 /* TouTiaoTests.swift */; };
 		0673B7561CAE2D06001FBF40 /* TouTiaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B7551CAE2D06001FBF40 /* TouTiaoUITests.swift */; };
+		0673B7681CAE32E1001FBF40 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B7671CAE32E1001FBF40 /* MainViewController.swift */; };
+		0673B76B1CAE33BC001FBF40 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B7691CAE33BC001FBF40 /* PopViewController.swift */; };
+		0673B76C1CAE33BC001FBF40 /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0673B76A1CAE33BC001FBF40 /* PopViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		0673B7511CAE2D06001FBF40 /* TouTiaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouTiaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0673B7551CAE2D06001FBF40 /* TouTiaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouTiaoUITests.swift; sourceTree = "<group>"; };
 		0673B7571CAE2D06001FBF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0673B7671CAE32E1001FBF40 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0673B7691CAE33BC001FBF40 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		0673B76A1CAE33BC001FBF40 /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 				0673B73C1CAE2D06001FBF40 /* Assets.xcassets */,
 				0673B73E1CAE2D06001FBF40 /* MainMenu.xib */,
 				0673B7411CAE2D06001FBF40 /* Info.plist */,
+				0673B7671CAE32E1001FBF40 /* MainViewController.swift */,
+				0673B7691CAE33BC001FBF40 /* PopViewController.swift */,
+				0673B76A1CAE33BC001FBF40 /* PopViewController.xib */,
 			);
 			path = TouTiao;
 			sourceTree = "<group>";
@@ -223,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0673B76C1CAE33BC001FBF40 /* PopViewController.xib in Resources */,
 				0673B73D1CAE2D06001FBF40 /* Assets.xcassets in Resources */,
 				0673B7401CAE2D06001FBF40 /* MainMenu.xib in Resources */,
 			);
@@ -249,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0673B7681CAE32E1001FBF40 /* MainViewController.swift in Sources */,
 				0673B73B1CAE2D06001FBF40 /* AppDelegate.swift in Sources */,
+				0673B76B1CAE33BC001FBF40 /* PopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
