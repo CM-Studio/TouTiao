@@ -24,8 +24,27 @@ class PopViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-        
-        
     }
     
+}
+
+// MARK: - NSTableViewDataSource
+extension PopViewController: NSTableViewDataSource {
+    func numberOfRowsInTableView(aTableView: NSTableView) -> Int {
+        return 4
+    }
+    
+    func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView? {
+        // 1
+        var cellView: NSTableCellView = tableView.makeViewWithIdentifier(tableColumn!.identifier, owner: self) as! NSTableCellView
+        
+        // 2
+        if tableColumn!.identifier == "content" {
+            // 3
+            cellView.textField!.stringValue = "test"
+            return cellView
+        }
+        
+        return cellView
+    }
 }
