@@ -31,20 +31,38 @@ class PopViewController: NSViewController {
 // MARK: - NSTableViewDataSource
 extension PopViewController: NSTableViewDataSource {
     func numberOfRowsInTableView(aTableView: NSTableView) -> Int {
-        return 4
+        return 5
     }
     
     func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView? {
         // 1
-        var cellView: NSTableCellView = tableView.makeViewWithIdentifier(tableColumn!.identifier, owner: self) as! NSTableCellView
+        var cellView: NSTableCellView = tableView.makeViewWithIdentifier(tableColumn!.identifier, owner: tableView) as! NSTableCellView
         
         // 2
-        if tableColumn!.identifier == "content" {
+        if tableColumn!.identifier == "BugColumn" {
             // 3
-            cellView.textField!.stringValue = "test"
+            cellView.textField!.stringValue = "123"
             return cellView
         }
         
         return cellView
     }
+    
+//    func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView? {
+//        // 1
+//        var cellView: NSTableCellView = tableView.makeViewWithIdentifier("BugColumn", owner: self) as! NSTableCellView
+//        
+//        // 2
+//        if tableColumn!.identifier == "BugColumn" {
+//            // 3
+//            cellView.textField!.stringValue = "eq"
+//            return cellView
+//        }
+//        
+//        return cellView
+//    }
+}
+
+extension PopViewController: NSTableViewDelegate {
+    
 }
