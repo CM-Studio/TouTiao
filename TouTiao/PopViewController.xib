@@ -56,8 +56,8 @@
                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                 <tableColumns>
-                                    <tableColumn identifier="BugColumn" width="368" minWidth="40" maxWidth="1000" id="Hm0-6m-I5b">
-                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
+                                    <tableColumn identifier="TouTiaoCell" width="368" minWidth="40" maxWidth="1000" id="Hm0-6m-I5b">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
                                             <font key="font" metaFont="smallSystem"/>
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -69,7 +69,7 @@
                                         </textFieldCell>
                                         <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                         <prototypeCellViews>
-                                            <tableCellView identifier="test" id="6Bc-dn-LMV">
+                                            <tableCellView id="6Bc-dn-LMV">
                                                 <rect key="frame" x="1" y="1" width="368" height="17"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
@@ -95,8 +95,8 @@
                                     </tableColumn>
                                 </tableColumns>
                                 <connections>
-                                    <outlet property="dataSource" destination="-2" id="00E-Cd-Bxw"/>
-                                    <outlet property="delegate" destination="-2" id="Fji-qL-jPQ"/>
+                                    <outlet property="dataSource" destination="-2" id="Gf5-gb-jBw"/>
+                                    <outlet property="delegate" destination="-2" id="Z3z-Au-puJ"/>
                                 </connections>
                             </tableView>
                         </subviews>
