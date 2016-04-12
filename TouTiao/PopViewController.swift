@@ -9,6 +9,8 @@
 import Cocoa
 
 class PopViewController: NSViewController {
+    let fetcher = NetWorkFetcher()
+
     @IBOutlet weak var headView: NSView! {
         didSet {
             headView.wantsLayer = true
@@ -24,6 +26,10 @@ class PopViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        fetcher.getReleases{
+            result in
+            print(result)
+        }
     }
     
 }
