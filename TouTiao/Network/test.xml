@@ -1,0 +1,2238 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  
+  <title>开发者头条 - 程序员的首选学习分享平台 | 技术极客的头条新闻</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ACY/6JLWgGtSJz6vC32JbTmkbqB7sfXLqa2beMWhPYPK0x9c+lcmKSuSXzi4bBMahd7CqC28maB95x1wP/CXpA==" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+  <meta name="keywords" content="开发者头条,开发者中心,开发者平台,开发者社区,程序员,极客,技术,开源,编程" />
+  <meta name="description" content="开发者头条是一个以程序员为中心，基于学习和分享的开发者社区。在开发者头条，你可以阅读头条新闻、分享技术文章、发布开源项目，订阅技术极客们创建的学习主题和关注编程牛人。" />
+
+  <!-- <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL"> -->
+  <!-- <meta name="apple-itunes-app" content="app-id=910949525"> -->
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/twitter-bootstrap/3.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" media="all" href="/assets/application-541769b6fe26a9ebf515891ba4fedfbe.css" />
+
+  <script src="/assets/application-e431b563f7c062fd63384e87405d298e.js"></script>
+
+  <script type="text/javascript" src="http://cdn.staticfile.org/twitter-bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+
+  
+
+</head>
+<body class="welcome_index">
+
+  <header class="navbar navbar-default navbar-static-top bs-docs-nav" id="top" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a href="/" class="navbar-brand logo">
+          <h1>开发者头条</h1>
+          <h3>程序员的首选学习分享平台</h3>
+        </a>
+      </div>
+
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class=""><a href="http://toutiao.io/explore">发现</a></li>
+          <li class=""><a href="http://toutiao.io/contribute">分享</a></li>
+          <li class=""><a href="http://toutiao.io/account/subscriptions">我的订阅</a></li>
+          <li class=""><a href="/favorites">我的收藏</a></li>
+          <li class=""><a href="http://toutiao.io/search">搜索</a></li>
+
+          <li class="dropdown">
+            <a href class="dropdown-toggle clear" data-toggle="dropdown">
+              <span>tesths</span> <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu animated fadeInRight w">
+              <li class=""><a href="/u/123639">我的分享</a></li>
+              <li class=""><a href="/u/123639/subjects">我的主题</a></li>
+              <li class=""><a href="/u/123639/following">我的关注</a></li>
+
+              <li class="">
+                <a href="/account/coin">
+                  我的IO币: <span class="text-danger text-md">320.9</span>
+</a></li>
+              <li class=""><a href="/account/settings">个人设置</a></li>
+              
+              <li><a href="/logout">退出</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </nav>
+    </div>
+  </header>
+
+  
+  
+
+  <div id="main">
+    <div class="hero">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="app-iphone">
+  <div class="carousel slide" data-ride="carousel" data-interval="3000">
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img alt="开发者头条应用截图阅读精选" src="http://7rf34y.com2.z0.glb.qiniucdn.com/images%2Fscreenshot-1.png" />
+        <div class="carousel-caption">阅读精选</div>
+      </div>
+      <div class="item">
+        <img alt="开发者头条应用截图订阅主题" src="http://7rf34y.com2.z0.glb.qiniucdn.com/images%2Fscreenshot-2.png" />
+        <div class="carousel-caption">订阅主题</div>
+      </div>
+      <div class="item">
+        <img alt="开发者头条应用截图分享干货" src="http://7rf34y.com2.z0.glb.qiniucdn.com/images%2Fscreenshot-3.png" />
+        <div class="carousel-caption">分享干货</div>
+      </div>
+      <div class="item">
+        <img alt="开发者头条应用截图兑换礼品" src="http://7rf34y.com2.z0.glb.qiniucdn.com/images%2Fscreenshot-4.png" />
+        <div class="carousel-caption">兑换礼品</div>
+      </div>
+      <div class="item">
+        <img alt="开发者头条应用截图建立品牌" src="http://7rf34y.com2.z0.glb.qiniucdn.com/images%2Fscreenshot-5.png" />
+        <div class="carousel-caption">建立品牌</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <div class="col-sm-6">
+        <div class="intro">
+          <div class="title">
+            <h1>开发者头条</h1>
+            <h3>程序员必装的 App</h3>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <img class="media-object app-qrcode" src="http://7rf34y.com2.z0.glb.qiniucdn.com/images/app_qrcode_web_index.png" alt="App qrcode web index" />            </div>
+            <div class="media-body">
+              <div class="buttons">
+                <p><a onclick="_hmt.push(['_trackEvent', 'app', 'download', 'ios'])" class="btn btn-success btn-lg" href="http://toutiao.io/s/ios"><i class="fa fa-apple"></i> iPhone 版</a></p>
+                <p><a onclick="_hmt.push(['_trackEvent', 'app', 'download', 'apk'])" class="btn btn-success btn-lg" href="http://toutiao.io/s/apk"><i class="fa fa-android"></i> Android 版</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+<div class="container">
+  <form class="navbar-form navbar-right" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <div class="form-group has-feedback">
+      <input type="text" name="q" id="q" class="form-control" placeholder="Search..." />
+      <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
+    </div>
+</form></div>
+-->
+
+<div class="container" id="daily">
+  
+
+<div class="daily">
+
+  <h3 class="date">
+    <i class="fa fa-calendar"></i>
+    <span>今日头条</span>
+    <small>2016-04-20</small>
+
+    
+  </h3>
+
+  <div class="posts">
+    <div class="banner">
+      <a href="http://toutiao.io/ad/6/click" target="_blank"><img src="http://toutiaoio.qiniudn.com/ad%2Fadadc7a5fdc7405fb8e826f69ce99bf0" alt="Ad%2fadadc7a5fdc7405fb8e826f69ce99bf0" /></a>
+    </div>
+    
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-354682" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/354682">
+  <i class="fa fa-thumbs-o-up"></i> <span>59</span>
+</a>
+    
+
+  <a id="favorite-button-354682" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/354682">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/ylpdas">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/ylpdas">10 款 GitHub 上最火爆的国产开源项目</a>
+      
+    </h3>
+
+    <div class="meta">
+      mp.weixin.qq.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment"></i> 10
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/202134"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/2385aa0e1da14b4898affcd9fa177d46/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/202134"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/2385aa0e1da14b4898affcd9fa177d46/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">shenAlexy</h4>
+
+    <p class="bio">iOS开发者</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/78537">iOS干货分享</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-354696" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/354696">
+  <i class="fa fa-thumbs-o-up"></i> <span>30</span>
+</a>
+    
+
+  <a id="favorite-button-354696" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/354696">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/4f5fh1">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/4f5fh1">我从星巴克咖啡学到的 5 点架构经验</a>
+      
+    </h3>
+
+    <div class="meta">
+      mp.weixin.qq.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/128674"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/8b47bdd8a57e441baa2b190d6d451ec3/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/128674"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/8b47bdd8a57e441baa2b190d6d451ec3/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">Yourtion</h4>
+
+    <p class="bio">专业打酱油 / 试用达人 / 修理工</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/42200">架构之美</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-354633" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/354633">
+  <i class="fa fa-thumbs-o-up"></i> <span>28</span>
+</a>
+    
+
+  <a id="favorite-button-354633" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/354633">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/vdaoga">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/vdaoga">[译] 一种更清晰的 Android 架构</a>
+      
+    </h3>
+
+    <div class="meta">
+      zhuanlan.zhihu.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment"></i> 2
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/223165"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/4cb5e9bbbab643169e51cf1e06821362/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/223165"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/4cb5e9bbbab643169e51cf1e06821362/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">骆驼骑士_San</h4>
+
+    
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/99573">除了代码还有诗和远方</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355023" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355023">
+  <i class="fa fa-thumbs-o-up"></i> <span>16</span>
+</a>
+    
+
+  <a id="favorite-button-355023" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355023">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/ikha79">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/ikha79">图解基于 Node.js 实现前后端分离</a>
+      
+    </h3>
+
+    <div class="meta">
+      yalishizhude.github.io&nbsp;
+
+      <span>
+          <i class="fa fa-comment"></i> 2
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/134978"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/3d03869a630c4a23821eb821bdbd52b9/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/134978"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/3d03869a630c4a23821eb821bdbd52b9/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">亚里士朱德</h4>
+
+    <p class="bio">WEB前端工程师，JS全栈工程师。多年大型国际...</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/11510">web前端到js全栈的成长之路</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-354994" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/354994">
+  <i class="fa fa-thumbs-o-up"></i> <span>11</span>
+</a>
+    
+
+  <a id="favorite-button-354994" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/354994">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/cip17t">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/cip17t">swig 实现 Python 和 C 的互联</a>
+      
+    </h3>
+
+    <div class="meta">
+      fangs.in&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/172204"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/717505abf0674d61bdf36cefa7f6ba08/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/172204"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/717505abf0674d61bdf36cefa7f6ba08/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">Boys</h4>
+
+    <p class="bio">走在世界最前端的人，不是天才，就是疯子！</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/48828">屌丝的奋斗史</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355728" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355728">
+  <i class="fa fa-thumbs-o-up"></i> <span>10</span>
+</a>
+    
+
+  <a id="favorite-button-355728" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355728">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/ofppi1">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/ofppi1">Swift 是 Android 的未来么？</a>
+      
+    </h3>
+
+    <div class="meta">
+      mp.weixin.qq.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment"></i> 2
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/187658"><img width="32" class="img-circle" src="https://avatars.githubusercontent.com/u/2267900?v=3" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/187658"><img width="48" class="img-circle" src="https://avatars.githubusercontent.com/u/2267900?v=3" alt="2267900?v=3" /></a>
+
+    <h4 class="m-b-xs">stormzhang</h4>
+
+    <p class="bio">微信公众号：AndroidDeveloper</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/64109">AndroidDeveloper</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355660" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355660">
+  <i class="fa fa-thumbs-o-up"></i> <span>10</span>
+</a>
+    
+
+  <a id="favorite-button-355660" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355660">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/7skj3b">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/7skj3b">Android 架构文章整理（持续更新）</a>
+      
+    </h3>
+
+    <div class="meta">
+      jianshu.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/217346"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/7746d421c07748128e692a891e878c70/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/217346"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/7746d421c07748128e692a891e878c70/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">Anthony</h4>
+
+    <p class="bio">要做美猴王的程序员</p>
+
+    <a class="btn btn-info btn-xs follow-217346" data-disable-with="请稍候..." data-remote="true" rel="nofollow" data-method="post" href="/u/217346/follow">
+  <i class="fa fa-eye"></i> 关注TA
+</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/93744">Anthony 的安卓探索之路</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-354999" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/354999">
+  <i class="fa fa-thumbs-o-up"></i> <span>10</span>
+</a>
+    
+
+  <a id="favorite-button-354999" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/354999">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/j9yai0">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/j9yai0">Linux 延时实现</a>
+      
+    </h3>
+
+    <div class="meta">
+      mp.weixin.qq.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/138580"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/a47e2eb2182a438fbea023fe8055f82d/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/138580"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/a47e2eb2182a438fbea023fe8055f82d/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">列列列旭松</h4>
+
+    
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/15112">列列列旭松的主题</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355732" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355732">
+  <i class="fa fa-thumbs-o-up"></i> <span>8</span>
+</a>
+    
+
+  <a id="favorite-button-355732" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355732">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/37jcdo">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/37jcdo">[译] 用 Nginx 最大化发挥 Python 性能</a>
+      
+    </h3>
+
+    <div class="meta">
+      jointforce.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/134601"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/60be9ea2286f48f59700920560f06513/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/134601"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/60be9ea2286f48f59700920560f06513/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">杰微刊</h4>
+
+    <p class="bio">致力于为国内IT同胞贡献有价值的内容。</p>
+
+    <a class="btn btn-info btn-xs follow-134601" data-disable-with="请稍候..." data-remote="true" rel="nofollow" data-method="post" href="/u/134601/follow">
+  <i class="fa fa-eye"></i> 关注TA
+</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/11133">杰微刊</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355575" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355575">
+  <i class="fa fa-thumbs-o-up"></i> <span>8</span>
+</a>
+    
+
+  <a id="favorite-button-355575" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355575">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/099hws">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/099hws">设计模式（七）：抽象工厂模式</a>
+      
+    </h3>
+
+    <div class="meta">
+      hollischuang.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/174926"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/88998ed8863c445b92f0f53c43bf67a9/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/174926"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/88998ed8863c445b92f0f53c43bf67a9/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">Hollis_Chuang</h4>
+
+    
+
+    <a class="btn btn-info btn-xs follow-174926" data-disable-with="请稍候..." data-remote="true" rel="nofollow" data-method="post" href="/u/174926/follow">
+  <i class="fa fa-eye"></i> 关注TA
+</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/51515">JAVA干货</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355452" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355452">
+  <i class="fa fa-thumbs-o-up"></i> <span>8</span>
+</a>
+    
+
+  <a id="favorite-button-355452" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355452">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/d7cy6u">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/d7cy6u">反编译与重打包 “疯狂大脑” 应用</a>
+      
+    </h3>
+
+    <div class="meta">
+      blog.saymagic.cn&nbsp;
+
+      <span>
+          <i class="fa fa-comment"></i> 1
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/127502"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/c1893c7157fb4046a5ba9ace547fc65f/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/127502"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/c1893c7157fb4046a5ba9ace547fc65f/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">saymagic</h4>
+
+    <p class="bio">Androider</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/4046">saymagic的主题</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355531" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355531">
+  <i class="fa fa-thumbs-o-up"></i> <span>8</span>
+</a>
+    
+
+  <a id="favorite-button-355531" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355531">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/mvveys">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/mvveys">JSPatchX：JSPatch XCode 代码补全插件</a>
+      
+    </h3>
+
+    <div class="meta">
+      github.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/123460"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/ae8b163c1bfb43f7b01c7b4941b077ec/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>编辑</h5>
+
+    <a href="/u/123460"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/ae8b163c1bfb43f7b01c7b4941b077ec/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">开发者头条</h4>
+
+    <p class="bio">没错，我就是头条君。求关注～</p>
+
+    <a class="btn btn-info btn-xs follow-123460" data-disable-with="请稍候..." data-remote="true" rel="nofollow" data-method="post" href="/u/123460/follow">
+  <i class="fa fa-eye"></i> 关注TA
+</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/4">头条精选</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-354731" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/354731">
+  <i class="fa fa-thumbs-o-up"></i> <span>8</span>
+</a>
+    
+
+  <a id="favorite-button-354731" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/354731">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/020b60">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/020b60">如何把 Callback 接口包装成 Promise 接口</a>
+      
+    </h3>
+
+    <div class="meta">
+      welefen.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/208789"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/fc03383dce4c4117bbc713798fdcb09f/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/208789"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/fc03383dce4c4117bbc713798fdcb09f/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">abell123</h4>
+
+    <p class="bio">阿里巴巴国际站前端&amp;rn&amp;Node.js开发</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/85192">Node.js实战</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355354" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355354">
+  <i class="fa fa-thumbs-o-up"></i> <span>7</span>
+</a>
+    
+
+  <a id="favorite-button-355354" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355354">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/6mt5jy">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/6mt5jy">Spark 会把数据都载入到内存么？</a>
+      
+    </h3>
+
+    <div class="meta">
+      jianshu.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/134773"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/8c861154d52f4faf8370cc46d7dadf4b/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/134773"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/8c861154d52f4faf8370cc46d7dadf4b/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">爱听歌的嘻嘻</h4>
+
+    <p class="bio">专注Hadoop Spark等大数据开源技术。</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/11305">大数据那些事</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355390" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355390">
+  <i class="fa fa-thumbs-o-up"></i> <span>6</span>
+</a>
+    
+
+  <a id="favorite-button-355390" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355390">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/706ty3">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/706ty3">[译] Mesos 开源 DC/OS 介绍：容器的最佳运行平台</a>
+      
+    </h3>
+
+    <div class="meta">
+      dockone.io&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/123477"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/38485a39ee2244f58fd3c081a8e83d60/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/123477"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/38485a39ee2244f58fd3c081a8e83d60/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">DockOne</h4>
+
+    <p class="bio">DockOne发起人</p>
+
+    <a class="btn btn-info btn-xs follow-123477" data-disable-with="请稍候..." data-remote="true" rel="nofollow" data-method="post" href="/u/123477/follow">
+  <i class="fa fa-eye"></i> 关注TA
+</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/21">Docker</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-356144" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/356144">
+  <i class="fa fa-thumbs-o-up"></i> <span>5</span>
+</a>
+    
+
+  <a id="favorite-button-356144" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/356144">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/ctamic">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/ctamic">动手写一个 jQuery 插件</a>
+      
+    </h3>
+
+    <div class="meta">
+      warjiang.github.io&nbsp;
+
+      <span>
+          <i class="fa fa-comment"></i> 2
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/196140"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/682a6aef2bc04621989a13dfbf1a91d4/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/196140"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/682a6aef2bc04621989a13dfbf1a91d4/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">warjiang</h4>
+
+    
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/72544">warjiang的主题</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355315" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355315">
+  <i class="fa fa-thumbs-o-up"></i> <span>5</span>
+</a>
+    
+
+  <a id="favorite-button-355315" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355315">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/70wg5p">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/70wg5p">微信浏览器全面升级至 X5 Blink 内核，支持远程调试</a>
+      
+    </h3>
+
+    <div class="meta">
+      mp.weixin.qq.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/130543"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/ce1fc72415024e20b9edf49d68b337c3/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/130543"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/ce1fc72415024e20b9edf49d68b337c3/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">heartEngine</h4>
+
+    <p class="bio">阿里巴巴国际站前端与Node.js开发</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/7076">前端与Node.js</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355597" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355597">
+  <i class="fa fa-thumbs-o-up"></i> <span>4</span>
+</a>
+    
+
+  <a id="favorite-button-355597" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355597">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/exx436">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/exx436">再谈网络爬虫中的编码识别问题</a>
+      
+    </h3>
+
+    <div class="meta">
+      tnidea.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/128521"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/d8eaaba614444150ad000d145f6b980d/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/128521"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/d8eaaba614444150ad000d145f6b980d/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">ziyunhx</h4>
+
+    <p class="bio">dotNet工程师</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/5063">dotNet大数据</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355588" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355588">
+  <i class="fa fa-thumbs-o-up"></i> <span>4</span>
+</a>
+    
+
+  <a id="favorite-button-355588" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355588">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/8gnxp1">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/8gnxp1">采用 MiniProfiler 监控 EF 与 .NET MVC 项目</a>
+      
+    </h3>
+
+    <div class="meta">
+      cnblogs.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/215550"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/f88e48fe70c6446387a29547078d5af5/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/215550"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/f88e48fe70c6446387a29547078d5af5/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">秋无迹</h4>
+
+    <p class="bio">关注微软技术生态！</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/91949">微软技术相关</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355353" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355353">
+  <i class="fa fa-thumbs-o-up"></i> <span>4</span>
+</a>
+    
+
+  <a id="favorite-button-355353" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355353">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/whbq69">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/whbq69">跟黄哥学编程系列文章之插入排序</a>
+      
+    </h3>
+
+    <div class="meta">
+      github.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/159273"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/a4d00fb26ca2465daf6053b8afda7221/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/159273"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/a4d00fb26ca2465daf6053b8afda7221/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">python爱好者</h4>
+
+    
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/35888">黄哥的python短文</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355131" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355131">
+  <i class="fa fa-thumbs-o-up"></i> <span>4</span>
+</a>
+    
+
+  <a id="favorite-button-355131" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355131">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/cqhdjo">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/cqhdjo">用 Golang 写一个搜索引擎（0x06）</a>
+      
+    </h3>
+
+    <div class="meta">
+      segmentfault.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/126289"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/ae3be9bd3d924eada404ec22fab73a35/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/126289"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/ae3be9bd3d924eada404ec22fab73a35/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">吳YH堅</h4>
+
+    <p class="bio">码代码的</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/2833">吳YH堅的主题</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-354993" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/354993">
+  <i class="fa fa-thumbs-o-up"></i> <span>4</span>
+</a>
+    
+
+  <a id="favorite-button-354993" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/354993">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/j2exvp">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/j2exvp">How to Diagnose Ruby on Rails N + 1 Query Problems</a>
+      
+    </h3>
+
+    <div class="meta">
+      jakeyesbeck.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/123457"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/35186959245345e4b79a10c5b01f7c76/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/123457"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/35186959245345e4b79a10c5b01f7c76/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">lxneng😁😀😉</h4>
+
+    
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/1">lxneng的主题</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-354727" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/354727">
+  <i class="fa fa-thumbs-o-up"></i> <span>4</span>
+</a>
+    
+
+  <a id="favorite-button-354727" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/354727">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/4yy5nr">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/4yy5nr">slim-born：Slim 3 骨架，基本实现了 Authentication</a>
+      
+    </h3>
+
+    <div class="meta">
+      github.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment"></i> 1
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/203430"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/a4651a89d55b46ee81a65790079052b4/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/203430"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/a4651a89d55b46ee81a65790079052b4/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">HavenShen</h4>
+
+    <p class="bio">Loading...</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/79833">HavenShen</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-356347" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/356347">
+  <i class="fa fa-thumbs-o-up"></i> <span>2</span>
+</a>
+    
+
+  <a id="favorite-button-356347" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/356347">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/9mespv">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/9mespv">Android 线程的正确使用姿势</a>
+      
+    </h3>
+
+    <div class="meta">
+      mrpeak.cn&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/127584"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/ef8b354d2f734d9a9742963b7782ef6e/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/127584"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/ef8b354d2f734d9a9742963b7782ef6e/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">peak</h4>
+
+    <p class="bio">iOS 开发</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/4128">peak技术分享</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-356131" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/356131">
+  <i class="fa fa-thumbs-o-up"></i> <span>2</span>
+</a>
+    
+
+  <a id="favorite-button-356131" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/356131">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/mphn5b">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/mphn5b">[译] 在 Android N 预览版中使用 Java 8 的新特性</a>
+      
+    </h3>
+
+    <div class="meta">
+      blog.zhaiyifan.cn&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/211677"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/56a367a7cc334837a4acf8b9a717682a/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/211677"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/56a367a7cc334837a4acf8b9a717682a/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">Flymoth</h4>
+
+    <p class="bio">一只入doge</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/88081">移动Web大杂烩</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-356045" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/356045">
+  <i class="fa fa-thumbs-o-up"></i> <span>2</span>
+</a>
+    
+
+  <a id="favorite-button-356045" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/356045">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/f892yk">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/f892yk">如何使用 webpack 开始一个 React 项目？</a>
+      
+    </h3>
+
+    <div class="meta">
+      xiaomingplus.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/128399"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/107d31c648504a529a106b24644cf500/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/128399"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/107d31c648504a529a106b24644cf500/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">小明plus</h4>
+
+    <p class="bio">前端</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/4941">相见恨晚系列</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355586" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355586">
+  <i class="fa fa-thumbs-o-up"></i> <span>2</span>
+</a>
+    
+
+  <a id="favorite-button-355586" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355586">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/ipxs91">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/ipxs91">浅谈 iOS 中的视图优化</a>
+      
+    </h3>
+
+    <div class="meta">
+      jianshu.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/169571"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/27c55e809b094d7dbabfee4726660da3/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/169571"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/27c55e809b094d7dbabfee4726660da3/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">cbsfly</h4>
+
+    <p class="bio">·</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/46194">iOS开发者.</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355530" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355530">
+  <i class="fa fa-thumbs-o-up"></i> <span>2</span>
+</a>
+    
+
+  <a id="favorite-button-355530" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355530">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/38i3cv">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/38i3cv">FBMemoryProfiler 基础教程</a>
+      
+    </h3>
+
+    <div class="meta">
+      ifujun.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/216713"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/a21adb4b3ff44f98b8cee0618e456af9/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/216713"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/a21adb4b3ff44f98b8cee0618e456af9/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">Fujun</h4>
+
+    
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/93112">Forkong - iOS</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-354812" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/354812">
+  <i class="fa fa-thumbs-o-up"></i> <span>2</span>
+</a>
+    
+
+  <a id="favorite-button-354812" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/354812">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/qrdxio">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/qrdxio">Emacs is available on Chromebook and Chrome</a>
+      
+    </h3>
+
+    <div class="meta">
+      endlessparentheses.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/147710"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/169152cb44fa4102be31d85763e75c1c/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/147710"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/169152cb44fa4102be31d85763e75c1c/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">DarkSun</h4>
+
+    
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/24265">DarkSun的主题</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-356150" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/356150">
+  <i class="fa fa-thumbs-o-up"></i> <span>1</span>
+</a>
+    
+
+  <a id="favorite-button-356150" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/356150">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/hpw4p9">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/hpw4p9">做最好的服务商美团云的 Docker 探索之路</a>
+      
+    </h3>
+
+    <div class="meta">
+      mp.weixin.qq.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/224392"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/6198dd35afb8430c96b33cf1d718ed47/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/224392"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/6198dd35afb8430c96b33cf1d718ed47/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">文哥</h4>
+
+    
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/100802">云计算</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-356143" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/356143">
+  <i class="fa fa-thumbs-o-up"></i> <span>1</span>
+</a>
+    
+
+  <a id="favorite-button-356143" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/356143">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/f9od3m">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/f9od3m">iOS RunLoop 进阶</a>
+      
+    </h3>
+
+    <div class="meta">
+      jianshu.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/130142"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/cc387ebd7b58480e8e7da0d74bc1a769/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/130142"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/cc387ebd7b58480e8e7da0d74bc1a769/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">践行者</h4>
+
+    
+
+    <a class="btn btn-info btn-xs follow-130142" data-disable-with="请稍候..." data-remote="true" rel="nofollow" data-method="post" href="/u/130142/follow">
+  <i class="fa fa-eye"></i> 关注TA
+</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/6675">晕蔡技术一锅炖</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-356141" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/356141">
+  <i class="fa fa-thumbs-o-up"></i> <span>1</span>
+</a>
+    
+
+  <a id="favorite-button-356141" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/356141">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/mzqokz">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/mzqokz">程序员面试技巧</a>
+      
+    </h3>
+
+    <div class="meta">
+      blog.jobbole.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/219477"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/d13c6c65deaa442ca3cf3b3a453459ee/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/219477"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/d13c6c65deaa442ca3cf3b3a453459ee/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">isee15</h4>
+
+    
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/95877">八人行</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-356138" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/356138">
+  <i class="fa fa-thumbs-o-up"></i> <span>1</span>
+</a>
+    
+
+  <a id="favorite-button-356138" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/356138">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/nh5bc0">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/nh5bc0">如何使用 GitLab 的 flow 以及代码 review</a>
+      
+    </h3>
+
+    <div class="meta">
+      mojito515.github.io&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/164021"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/64f3a0f387ac4d8cb49f85177d2000a3/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>作者</h5>
+
+    <a href="/u/164021"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/64f3a0f387ac4d8cb49f85177d2000a3/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">晨曦</h4>
+
+    <p class="bio">java RD</p>
+
+    <a class="btn btn-info btn-xs follow-164021" data-disable-with="请稍候..." data-remote="true" rel="nofollow" data-method="post" href="/u/164021/follow">
+  <i class="fa fa-eye"></i> 关注TA
+</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/40638">晨曦16222的主题</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-356132" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/356132">
+  <i class="fa fa-thumbs-o-up"></i> <span>1</span>
+</a>
+    
+
+  <a id="favorite-button-356132" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/356132">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/nj8co3">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/nj8co3">Android M (API23) 中对权限的授权处理</a>
+      
+    </h3>
+
+    <div class="meta">
+      sunjiajia.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/132857"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/a95aa13a75b44b41b872f3517ddb24d5/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/132857"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/a95aa13a75b44b41b872f3517ddb24d5/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">安卓猴</h4>
+
+    <p class="bio">关注Android开发的点点滴滴。</p>
+
+    
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/9389">Android开发</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355735" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355735">
+  <i class="fa fa-thumbs-o-up"></i> <span>1</span>
+</a>
+    
+
+  <a id="favorite-button-355735" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355735">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/51abh6">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/51abh6">写给初次参加 WWDC 的开发者的简明攻略</a>
+      
+    </h3>
+
+    <div class="meta">
+      onevcat.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/169571"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/27c55e809b094d7dbabfee4726660da3/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/169571"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/27c55e809b094d7dbabfee4726660da3/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">cbsfly</h4>
+
+    <p class="bio">·</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/46194">iOS开发者.</a></div>
+
+
+</div>
+
+<div class="post">
+  <div class="btn-group-vertical upvote">
+    
+<a id="like-button-355886" class="btn btn-default btn-xs like-button" title="点赞" data-remote="true" rel="nofollow" data-method="post" href="/likes/post/355886">
+  <i class="fa fa-thumbs-o-up"></i> <span>1</span>
+</a>
+    
+
+  <a id="favorite-button-355886" class="btn btn-default btn-xs favorite-button" title="收藏" data-remote="true" rel="nofollow" data-method="post" href="/favorites/post/355886">
+    <i class="fa fa-bookmark-o"></i> <!-- <span></span> -->
+</a>
+
+  </div>
+
+
+  <div class="content" data-url="http://toutiao.io/posts/7glg8n">
+    <h3 class="title">
+      <a target="_blank" href="http://toutiao.io/r/7glg8n">Swift 2 版 MQTT v3.1.1 客户端库</a>
+      
+    </h3>
+
+    <div class="meta">
+      github.com&nbsp;
+
+      <span>
+          <i class="fa fa-comment-o"></i> 0
+      </span>
+
+    </div>
+  </div>
+
+  
+<div class="user-info">
+  <div class="user-avatar">
+    <a href="/u/204331"><img width="32" class="img-circle" src="http://toutiaoio.qiniudn.com/user/d2fedef1458545fcbd7866c7fdf6f514/thumb" /></a>
+  </div>
+
+  <div class="info">
+    <h5>分享者</h5>
+
+    <a href="/u/204331"><img width="48" class="img-circle" src="http://toutiaoio.qiniudn.com/user/d2fedef1458545fcbd7866c7fdf6f514/thumb" alt="Thumb" /></a>
+
+    <h4 class="m-b-xs">SwiftLanguage</h4>
+
+    <p class="bio">让我们以开发者的视角追随、跟踪它的一举一动。</p>
+
+    <a class="btn btn-default btn-xs" href="/signin"><i class="fa fa-eye"></i> 关注TA</a>
+  </div>
+</div>
+
+<div class="subject-name">来自 <a href="/subjects/80734">Swift 语言指南</a></div>
+
+
+</div>
+
+
+    <div class="alert alert-warning subscribe-banner" role="alert">
+      《开发者头条》日报，每日 Top 3 通过邮件发送给你。      <a class="btn btn-info btn-sm pull-right" href="http://toutiao.io/account/settings">立即订阅</a>
+    </div>
+
+  </div>
+
+</div>
+
+
+<a class="hide jscroll-next" href="http://toutiao.io/prev/2016-04-19">下一页</a>
+
+
+</div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <p class="text-center">
+        <a href="http://toutiao.io/about">关于我们</a>
+        <a href="http://toutiao.io/download">开发者头条客户端</a>
+        <a target="_blank" href="http://weekly.manong.io/">码农周刊</a>
+        <a target="_blank" href="http://job.manong.io/">程序员招聘</a>
+        <a href="http://toutiao.io/tags">程序员技术干货索引</a>        <a id="install-chrome-extension" target="_blank" href="https://chrome.google.com/webstore/detail/%E5%BC%80%E5%8F%91%E8%80%85%E5%A4%B4%E6%9D%A1%E5%88%86%E4%BA%AB%E6%8F%92%E4%BB%B6/kdchifnbpeflbphakmpbcfdjeidkfeop">安装 Chrome 一键分享插件</a>
+      </p>
+      <p class="text-center">&copy; 2013-2016 南京无印信息技术有限公司 版权所有 苏ICP备14017389号-2</p>
+    </div>
+
+    <div class="qrcode">
+      <img src="http://toutiaoio.qiniudn.com/dowload_app.png" alt="Dowload app" />      <span>下载新版客户端</span>
+    </div>
+  </footer>
+
+  <div id="quick-download">
+    <a class="close-link" href="javascript:;"><i class="fa fa-times-circle"></i></a>
+
+    <a class="download-link" href="/download">
+      <h3>开发者头条</h3>
+      <h4>程序员的首选学习分享平台</h4>
+      <button type="button" class="btn btn-info btn-sm">下载 APP</button>
+    </a>
+  </div>
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+     var hm = document.createElement("script");
+     hm.src = "//hm.baidu.com/hm.js?512065947708a980c982b4401d14c2f5";
+     var s = document.getElementsByTagName("script")[0];
+     s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</body>
+</html>

@@ -15,9 +15,10 @@
 		0673B74B1CAE2D06001FBF40 /* TouTiaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B74A1CAE2D06001FBF40 /* TouTiaoTests.swift */; };
 		0673B7561CAE2D06001FBF40 /* TouTiaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B7551CAE2D06001FBF40 /* TouTiaoUITests.swift */; };
 		0673B7681CAE32E1001FBF40 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B7671CAE32E1001FBF40 /* MainViewController.swift */; };
-		0673B76B1CAE33BC001FBF40 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B7691CAE33BC001FBF40 /* PopViewController.swift */; };
-		0673B76C1CAE33BC001FBF40 /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0673B76A1CAE33BC001FBF40 /* PopViewController.xib */; };
 		06953AEE1CBCB3040001D698 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06953AED1CBCB3040001D698 /* String+Extension.swift */; };
+		74D0AD281CC7A3B400126706 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 74D0AD271CC7A3B400126706 /* test.xml */; };
+		74D0AD2B1CC7A47F00126706 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D0AD291CC7A47F00126706 /* PopViewController.swift */; };
+		74D0AD2C1CC7A47F00126706 /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74D0AD2A1CC7A47F00126706 /* PopViewController.xib */; };
 		FC007F7B55726384DC59FE30 /* Pods_TouTiao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C000B9EB5493E17915C8E77D /* Pods_TouTiao.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,10 +54,11 @@
 		0673B7551CAE2D06001FBF40 /* TouTiaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouTiaoUITests.swift; sourceTree = "<group>"; };
 		0673B7571CAE2D06001FBF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0673B7671CAE32E1001FBF40 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		0673B7691CAE33BC001FBF40 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopViewController.swift; path = ../PopViewController.swift; sourceTree = "<group>"; };
-		0673B76A1CAE33BC001FBF40 /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PopViewController.xib; path = ../PopViewController.xib; sourceTree = "<group>"; };
 		06953AED1CBCB3040001D698 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		57BAB250D52BE0BE8AE45323 /* Pods-TouTiao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouTiao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouTiao/Pods-TouTiao.debug.xcconfig"; sourceTree = "<group>"; };
+		74D0AD271CC7A3B400126706 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
+		74D0AD291CC7A47F00126706 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		74D0AD2A1CC7A47F00126706 /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
 		975E04C1B55E348097BD00B9 /* Pods-TouTiao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouTiao.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouTiao/Pods-TouTiao.release.xcconfig"; sourceTree = "<group>"; };
 		C000B9EB5493E17915C8E77D /* Pods_TouTiao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouTiao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,8 +115,8 @@
 		06541A291CBB5EDE004312AC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0673B7691CAE33BC001FBF40 /* PopViewController.swift */,
-				0673B76A1CAE33BC001FBF40 /* PopViewController.xib */,
+				74D0AD291CC7A47F00126706 /* PopViewController.swift */,
+				74D0AD2A1CC7A47F00126706 /* PopViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -122,6 +124,7 @@
 		06541A2C1CBB619B004312AC /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				74D0AD271CC7A3B400126706 /* test.xml */,
 				06541A2D1CBB61B2004312AC /* NetWorkFetcher.swift */,
 			);
 			path = Network;
@@ -308,9 +311,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0673B76C1CAE33BC001FBF40 /* PopViewController.xib in Resources */,
+				74D0AD2C1CC7A47F00126706 /* PopViewController.xib in Resources */,
 				0673B73D1CAE2D06001FBF40 /* Assets.xcassets in Resources */,
 				0673B7401CAE2D06001FBF40 /* MainMenu.xib in Resources */,
+				74D0AD281CC7A3B400126706 /* test.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,10 +389,10 @@
 			files = (
 				06541A2E1CBB61B2004312AC /* NetWorkFetcher.swift in Sources */,
 				0673B7681CAE32E1001FBF40 /* MainViewController.swift in Sources */,
+				74D0AD2B1CC7A47F00126706 /* PopViewController.swift in Sources */,
 				06541A2B1CBB6074004312AC /* TTModel.swift in Sources */,
 				0673B73B1CAE2D06001FBF40 /* AppDelegate.swift in Sources */,
 				06953AEE1CBCB3040001D698 /* String+Extension.swift in Sources */,
-				0673B76B1CAE33BC001FBF40 /* PopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
