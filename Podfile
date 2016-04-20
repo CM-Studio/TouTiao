@@ -2,5 +2,6 @@ use_frameworks!
 
 target 'TouTiao' do
   pod 'Alamofire'
-  pod 'Kanna'
+  pod 'Fuzi'
+  pod 'Kingfisher'
 end
