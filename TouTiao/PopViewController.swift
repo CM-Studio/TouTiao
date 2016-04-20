@@ -30,6 +30,11 @@ class PopViewController: NSViewController {
             result in
             print(result)
         }
+        
+        fetcher.gettest {
+            result in
+            print(result)
+        }
     }
     
 }
