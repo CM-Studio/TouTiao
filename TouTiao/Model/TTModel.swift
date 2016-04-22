@@ -10,6 +10,5 @@ import Foundation
 
 struct TTModel {
     let title: String
-    let hrefs: [String]
-    let avatar: [String]
+    let href: String
 }

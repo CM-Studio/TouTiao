@@ -8,23 +8,44 @@
 
 import Cocoa
 import Alamofire
+import Fuzi
 
 class NetWorkFetcher: NSObject {
     let url = "http://toutiao.io/"
-    
-    func uniq<S: SequenceType, E: Hashable where E==S.Generator.Element>(source: S) -> [E] {
-        var seen: [E:Bool] = [:]
-        return source.filter { seen.updateValue(true, forKey: $0) == nil }
-    }
-    
-    
+
     func getReleases(done: (model: [TTModel]?) -> ()) {
         Alamofire.request(.GET, url)
-            .responseData { response in
+            .responseString { response in
                 guard let html = response.result.value else {
                     return done(model: nil)
                 }
-
+                
+                let document = try? XMLDocument(string: html)
+                let body = document!.xpath("//div[@class='post']")
+                
+                let releases = body.map { return self.release($0) }.flatMap { return $0 }
+                done(model: releases)
         }
+    }
+    
+    func release(element: XMLElement) -> [TTModel] {
+        var model = [TTModel]()
+        let pth = element.xpath(".//h3[@class='title']/a")
+        pth.forEach {_ in
+            var href = String()
+            var title = String()
+            pth.forEach { pth in
+                href = pth["href"]!
+                title = pth.stringValue
+            }
+            
+            model.append(
+                TTModel(
+                    title: title,
+                    href: href
+                )
+            )
+        }
+        return model
     }
 }
