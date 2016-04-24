@@ -30,22 +30,45 @@ class NetWorkFetcher: NSObject {
     
     func release(element: XMLElement) -> [TTModel] {
         var model = [TTModel]()
-        let pth = element.xpath(".//h3[@class='title']/a")
-        pth.forEach {_ in
-            var href = String()
-            var title = String()
-            pth.forEach { pth in
+        var href = String()
+        var title = String()
+        var like = String()
+        var comment = String()
+        
+        
+        let pth = element.xpath(".//div[@class='btn-group-vertical upvote']")
+        pth.forEach {tt in
+            for (index, element) in tt.xpath(".//span").enumerate() {
+                if index == 0 {
+                    like = element.stringValue
+                    break
+                }
+            }
+        }
+        
+        let pth1 = element.xpath(".//div[@class='meta']/span")
+        pth1.forEach {tt in
+                let value = tt.stringValue
+                comment = value.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        }
+    
+        let pth2 = element.xpath(".//h3[@class='title']/a")
+        pth2.forEach {tt in
+            pth2.forEach { pth in
                 href = pth["href"]!
                 title = pth.stringValue
             }
-            
-            model.append(
-                TTModel(
-                    title: title,
-                    href: href
-                )
-            )
         }
+        
+        model.append(
+            TTModel(
+                title: title,
+                href: href,
+                like: like,
+                comment: comment
+            )
+        )
+        
         return model
     }
 }

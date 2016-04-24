@@ -15,7 +15,7 @@ class MainViewController: NSViewController {
     
     override func awakeFromNib() {
         if let button = statusItem.button {
-            button.image = NSImage(named: "StatusBarButtonImage")
+            button.image = NSImage(named: "TouTiao")
             button.action = #selector(MainViewController.togglePopover(_:))
         }
         popover.behavior = .Transient
@@ -47,6 +47,8 @@ class MainViewController: NSViewController {
         if let button = statusItem.button {
             popover.showRelativeToRect(button.bounds, ofView: button, preferredEdge: NSRectEdge.MinY)
         }
+        NSNotificationCenter.defaultCenter().postNotificationName("Reload", object: nil)
+
         eventMonitor?.start()
     }
     

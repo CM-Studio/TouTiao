@@ -13,7 +13,7 @@ import Fuzi
 class PopViewController: NSViewController {
     let fetcher = NetWorkFetcher()
     var model = [TTModel]()
-
+    
     @IBOutlet weak var tableView: NSTableView!
     @IBOutlet weak var headView: NSView! {
         didSet {
@@ -30,17 +30,19 @@ class PopViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-
-        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(PopViewController.reloadData), name:"Reload", object: nil)
+        reloadData()
+    }
+    
+    func reloadData() {
         fetcher.getReleases {
             result in
             self.model = result!
             self.tableView.reloadData()
         }
-
     }
-    
 }
+
 
 // MARK: - NSTableViewDataSource
 extension PopViewController: NSTableViewDataSource {
@@ -50,11 +52,8 @@ extension PopViewController: NSTableViewDataSource {
 
     
     func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView? {
-        let cellView = tableView.makeViewWithIdentifier(tableColumn!.identifier, owner: tableView) as! NSTableCellView
-        if tableColumn!.identifier == "TouTiaoCell" {
-            cellView.textField!.stringValue = model[row].title
-            return cellView
-        }
+        let cellView = tableView.makeViewWithIdentifier(tableColumn!.identifier, owner: tableView) as! TTCell
+        cellView.configureData(self.model[row])
         return cellView
     }
     
