@@ -15,10 +15,18 @@ class PopViewController: NSViewController {
     var model = [TTModel]()
     
     @IBOutlet weak var tableView: NSTableView!
-    @IBOutlet weak var headView: NSView! {
+    @IBOutlet weak var timeTextView: NSTextField!
+
+    @IBOutlet weak var headerView: NSView! {
         didSet {
-            headView.wantsLayer = true
-            headView.layer?.backgroundColor = NSColor(red:0.16, green:0.69, blue:0.93, alpha:1.00).CGColor
+            headerView.wantsLayer = true
+            headerView.layer?.backgroundColor = NSColor.whiteColor().CGColor
+        }
+    }
+    @IBOutlet weak var footerView: NSView! {
+        didSet {
+            footerView.wantsLayer = true
+            footerView.layer?.backgroundColor = NSColor.init(red:0.16, green:0.69, blue:0.93, alpha:1.00).CGColor
         }
     }
     @IBOutlet weak var titleLabel: NSTextField! {
@@ -34,13 +42,25 @@ class PopViewController: NSViewController {
         reloadData()
     }
     
+    @IBAction func toggleSettingButton(sender: NSView) {
+        SettingMenuAction.perform(sender)
+    }
+    
     func reloadData() {
         fetcher.getReleases {
             result in
             self.model = result!
             self.tableView.reloadData()
+            self.setTime()
         }
     }
+    
+    func setTime() {
+        let currentDate = NSDate()
+        timeTextView.stringValue = "更新时间 \(currentDate.toShortTimeString())"
+    }
+    
+
 }
 
 

@@ -56,4 +56,8 @@ class MainViewController: NSViewController {
         popover.performClose(sender)
         eventMonitor?.stop()
     }
+    
+    func quit() {
+        NSApplication.sharedApplication().terminate(self)
+    }
 }
