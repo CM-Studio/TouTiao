@@ -19,7 +19,6 @@
 		74355EC41CCA43BA0029999B /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74355EC31CCA43BA0029999B /* EventMonitor.swift */; };
 		7484FE131CCF692300560763 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484FE121CCF692300560763 /* NSDate+Extension.swift */; };
 		7484FE161CCF72B300560763 /* SettingMenuAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484FE151CCF72B300560763 /* SettingMenuAction.swift */; };
-		74D0AD281CC7A3B400126706 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 74D0AD271CC7A3B400126706 /* test.xml */; };
 		74D0AD2B1CC7A47F00126706 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D0AD291CC7A47F00126706 /* PopViewController.swift */; };
 		74D0AD2C1CC7A47F00126706 /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74D0AD2A1CC7A47F00126706 /* PopViewController.xib */; };
 		74E7E49B1CCCB64B00DCAE46 /* TTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E7E49A1CCCB64B00DCAE46 /* TTCell.swift */; };
@@ -63,7 +62,6 @@
 		74355EC31CCA43BA0029999B /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 		7484FE121CCF692300560763 /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
 		7484FE151CCF72B300560763 /* SettingMenuAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingMenuAction.swift; sourceTree = "<group>"; };
-		74D0AD271CC7A3B400126706 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
 		74D0AD291CC7A47F00126706 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 		74D0AD2A1CC7A47F00126706 /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
 		74E7E49A1CCCB64B00DCAE46 /* TTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTCell.swift; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 		06541A2C1CBB619B004312AC /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				74D0AD271CC7A3B400126706 /* test.xml */,
 				06541A2D1CBB61B2004312AC /* NetWorkFetcher.swift */,
 			);
 			path = Network;
@@ -334,7 +331,6 @@
 				74D0AD2C1CC7A47F00126706 /* PopViewController.xib in Resources */,
 				0673B73D1CAE2D06001FBF40 /* Assets.xcassets in Resources */,
 				0673B7401CAE2D06001FBF40 /* MainMenu.xib in Resources */,
-				74D0AD281CC7A3B400126706 /* test.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +546,7 @@
 			baseConfigurationReference = 57BAB250D52BE0BE8AE45323 /* Pods-TouTiao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TouTiao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -563,6 +560,7 @@
 			baseConfigurationReference = 975E04C1B55E348097BD00B9 /* Pods-TouTiao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TouTiao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
