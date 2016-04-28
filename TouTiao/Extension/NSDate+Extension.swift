@@ -37,9 +37,8 @@ extension NSDate
     {
         //Get Short Time String
         let formatter = NSDateFormatter()
-        formatter.timeStyle = .MediumStyle
+        formatter.timeStyle = .ShortStyle
         let timeString = formatter.stringFromDate(self)
-        
         //Return Short Time String
         return timeString
     }

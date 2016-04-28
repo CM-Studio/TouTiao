@@ -138,10 +138,6 @@
                 <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ra6-WO-HWt">
                     <rect key="frame" x="0.0" y="0.0" width="388" height="40"/>
                     <subviews>
-                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AgX-hh-bRH">
-                            <rect key="frame" x="12" y="7" width="26" height="26"/>
-                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="icon" id="0XL-7Y-0vB"/>
-                        </imageView>
                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbv-nk-V7u">
                             <rect key="frame" x="44" y="12" width="69" height="17"/>
                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="开发者头条" id="2HT-Cf-bzr">
@@ -160,16 +156,26 @@
                                 <action selector="toggleSettingButton:" target="-2" id="DeF-0N-Rgf"/>
                             </connections>
                         </button>
+                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vF0-MR-36f">
+                            <rect key="frame" x="12" y="7" width="26" height="26"/>
+                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="icon" imagePosition="only" alignment="center" state="on" imageScaling="proportionallyUpOrDown" inset="2" id="Uje-y5-cIl">
+                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="gotoTouTiaoWeb:" target="-2" id="bmJ-6m-HLR"/>
+                            </connections>
+                        </button>
                     </subviews>
                 </customView>
             </subviews>
-            <point key="canvasLocation" x="229" y="360.5"/>
+            <point key="canvasLocation" x="296" y="348.5"/>
         </customView>
     </objects>
     <resources>
         <image name="comment-icon" width="25" height="25"/>
         <image name="icon" width="180" height="180"/>
         <image name="icon-settings" width="50" height="50"/>
-        <image name="icon-upvote" width="10" height="9"/>
+        <image name="icon-upvote" width="25" height="25"/>
     </resources>
 </document>

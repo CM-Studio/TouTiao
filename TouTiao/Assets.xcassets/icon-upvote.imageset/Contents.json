@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "mac",
-      "filename" : "icon-upvote.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "mac",
+      "filename" : "vote.png",
       "scale" : "2x"
     }
   ],

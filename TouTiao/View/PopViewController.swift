@@ -45,6 +45,9 @@ class PopViewController: NSViewController {
     @IBAction func toggleSettingButton(sender: NSView) {
         SettingMenuAction.perform(sender)
     }
+    @IBAction func gotoTouTiaoWeb(sender: AnyObject) {
+                NSWorkspace.sharedWorkspace().openURL(NSURL(string: "http://toutiao.io/")!)
+    }
     
     func reloadData() {
         fetcher.getReleases {
