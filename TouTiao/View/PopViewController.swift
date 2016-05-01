@@ -39,7 +39,6 @@ class PopViewController: NSViewController {
         super.viewDidLoad()
         // Do view setup here.
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(PopViewController.reloadData), name:"Reload", object: nil)
-        reloadData()
     }
     
     @IBAction func toggleSettingButton(sender: NSView) {

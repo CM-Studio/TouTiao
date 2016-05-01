@@ -30,11 +30,12 @@ class NetWorkFetcher: NSObject {
     
     func release(element: XMLElement) -> [TTModel] {
         var model = [TTModel]()
+        var url = String()
         var href = String()
+
         var title = String()
         var like = String()
         var comment = String()
-        
         
         let pth = element.xpath(".//div[@class='btn-group-vertical upvote']")
         pth.forEach {tt in
@@ -48,13 +49,23 @@ class NetWorkFetcher: NSObject {
         
         let pth1 = element.xpath(".//div[@class='meta']/span")
         pth1.forEach {tt in
-                let value = tt.stringValue
-                comment = value.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+            print(tt)
+
+            let value = tt.stringValue
+            print(value)
+            comment = value.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        }
+        
+        let pth2 = element.xpath(".//div[@class='meta']")
+        pth2.forEach {tt in
+            let value = tt.stringValue.componentsSeparatedByString("\n")
+            url = value[1].stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+
         }
     
-        let pth2 = element.xpath(".//h3[@class='title']/a")
-        pth2.forEach {tt in
-            pth2.forEach { pth in
+        let pth3 = element.xpath(".//h3[@class='title']/a")
+        pth3.forEach {tt in
+            pth3.forEach { pth in
                 href = pth["href"]!
                 title = pth.stringValue
             }
@@ -63,6 +74,7 @@ class NetWorkFetcher: NSObject {
         model.append(
             TTModel(
                 title: title,
+                url: url,
                 href: href,
                 like: like,
                 comment: comment

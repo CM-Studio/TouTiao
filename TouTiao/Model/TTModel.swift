@@ -10,6 +10,7 @@ import Foundation
 
 struct TTModel {
     let title: String
+    let url: String
     let href: String
     let like: String
     let comment: String

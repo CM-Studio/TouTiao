@@ -25,7 +25,7 @@ class TTCell: NSTableCellView {
     
     func configureData(model: TTModel) {
         self.titleTextView.stringValue = model.title
-        self.urlTextField.stringValue = model.href
+        self.urlTextField.stringValue = model.url
         self.voteTextField.stringValue = model.like
         self.commentTextField.stringValue = model.comment
     }

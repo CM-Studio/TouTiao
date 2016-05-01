@@ -36,7 +36,7 @@
                         </textField>
                     </subviews>
                 </customView>
-                <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="70" horizontalPageScroll="10" verticalLineScroll="70" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" translatesAutoresizingMaskIntoConstraints="NO" id="ppl-dX-oz4">
+                <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="70" horizontalPageScroll="10" verticalLineScroll="70" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" scrollerKnobStyle="light" translatesAutoresizingMaskIntoConstraints="NO" id="ppl-dX-oz4">
                     <rect key="frame" x="0.0" y="39" width="388" height="253"/>
                     <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="Y9p-SQ-hIT">
                         <rect key="frame" x="1" y="1" width="386" height="251"/>

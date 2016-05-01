@@ -14,9 +14,7 @@ class SettingMenuAction {
         let delegate = NSApplication.sharedApplication().delegate as! MainViewController
         
         let menu = NSMenu()
-        
         menu.addItem(NSMenuItem(title: "退出", action: #selector(delegate.quit), keyEquivalent: "q"))
-        
         NSMenu.popUpContextMenu(menu, withEvent: NSApp.currentEvent!, forView: sender)
     }
     
