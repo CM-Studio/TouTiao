@@ -4,9 +4,11 @@
 
 最主要的是，这个是个人练手mac开发项目..
 
-具体博客
+下载移步  [release](https://github.com/judi0713/TouTiao/releases)...
 
-[Toutiao](https://github.com/judi0713/TouTiao/blob/master/toutiao.png)
+博客  [开发者头条插件小记](http://walkginkgo.com/ios/2016/05/04/Toutiao.html)
+
+![Toutiao](https://github.com/judi0713/TouTiao/blob/master/toutiao.png)
 
 开发者头条是我日常用的比较多的看技术方面资料的网站。安利了好多人都在用。
 
