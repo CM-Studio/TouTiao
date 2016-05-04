@@ -1,12 +1,12 @@
-# 开发者头条mac端插件
+# 开发者头条Mac端插件
+
+下载移步  [release](https://github.com/judi0713/TouTiao/releases)
+
+博客  [开发者头条插件小记](http://walkginkgo.com/ios/2016/05/04/Toutiao.html)
 
 ## 简介
 
 最主要的是，这个是个人练手mac开发项目..
-
-下载移步  [release](https://github.com/judi0713/TouTiao/releases)...
-
-博客  [开发者头条插件小记](http://walkginkgo.com/ios/2016/05/04/Toutiao.html)
 
 ![Toutiao](https://github.com/judi0713/TouTiao/blob/master/toutiao.png)
 
@@ -31,6 +31,8 @@
 数据缓存。
 
 重构代码。
+
+增加开机启动。
 
 ## 最后
 
