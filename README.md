@@ -6,7 +6,7 @@
 
 ## 简介
 
-最主要的是，这个是个人练手mac开发项目..测试
+最主要的是，这个是个人练手mac开发项目..
 
 ![Toutiao](https://github.com/judi0713/TouTiao/blob/master/toutiao.png)
 
