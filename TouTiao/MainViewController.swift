@@ -20,6 +20,8 @@ class MainViewController: NSViewController {
         }
         popover.behavior = .Transient
         popover.contentViewController = PopViewController(nibName: "PopViewController", bundle: nil)
+        popover.appearance = NSAppearance(named: NSAppearanceNameAqua)
+        popover.behavior = .Transient
         
         eventMonitor = EventMonitor(mask: [.LeftMouseDownMask, .RightMouseDownMask]) { [unowned self] event in
             if self.popover.shown {

@@ -49,10 +49,7 @@ class NetWorkFetcher: NSObject {
         
         let pth1 = element.xpath(".//div[@class='meta']/span")
         pth1.forEach {tt in
-            print(tt)
-
             let value = tt.stringValue
-            print(value)
             comment = value.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
         }
         
