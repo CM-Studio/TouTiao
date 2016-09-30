@@ -220,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0673B75A1CAE2D06001FBF40 /* Build configuration list for PBXNativeTarget "TouTiao" */;
 			buildPhases = (
-				52B0ED3AB7C7A3109812DE9C /* Check Pods Manifest.lock */,
+				52B0ED3AB7C7A3109812DE9C /* 📦 Check Pods Manifest.lock */,
 				0673B7331CAE2D06001FBF40 /* Sources */,
 				0673B7341CAE2D06001FBF40 /* Frameworks */,
 				0673B7351CAE2D06001FBF40 /* Resources */,
-				B91C8649C7C920E3ADBF3C3D /* Embed Pods Frameworks */,
-				92770A1D9D011A674360C60F /* Copy Pods Resources */,
+				B91C8649C7C920E3ADBF3C3D /* 📦 Embed Pods Frameworks */,
+				92770A1D9D011A674360C60F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,13 +285,16 @@
 					0673B7361CAE2D06001FBF40 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = TMXHMJ5NQ8;
+						LastSwiftMigration = 0800;
 					};
 					0673B7451CAE2D06001FBF40 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 0673B7361CAE2D06001FBF40;
 					};
 					0673B7501CAE2D06001FBF40 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 0673B7361CAE2D06001FBF40;
 					};
 				};
@@ -344,14 +347,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		52B0ED3AB7C7A3109812DE9C /* Check Pods Manifest.lock */ = {
+		52B0ED3AB7C7A3109812DE9C /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,14 +362,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		92770A1D9D011A674360C60F /* Copy Pods Resources */ = {
+		92770A1D9D011A674360C60F /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,14 +377,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouTiao/Pods-TouTiao-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B91C8649C7C920E3ADBF3C3D /* Embed Pods Frameworks */ = {
+		B91C8649C7C920E3ADBF3C3D /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,6 +548,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -559,6 +563,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -571,6 +576,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiaoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouTiao.app/Contents/MacOS/TouTiao";
 			};
 			name = Debug;
@@ -584,6 +590,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiaoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouTiao.app/Contents/MacOS/TouTiao";
 			};
 			name = Release;
@@ -596,6 +603,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiaoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TouTiao;
 			};
 			name = Debug;
@@ -608,6 +616,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiaoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TouTiao;
 			};
 			name = Release;

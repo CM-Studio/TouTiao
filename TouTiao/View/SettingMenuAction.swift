@@ -10,12 +10,12 @@ import Cocoa
 
 class SettingMenuAction {
 
-    class func perform(sender: NSView) {
-        let delegate = NSApplication.sharedApplication().delegate as! MainViewController
+    class func perform(_ sender: NSView) {
+        let delegate = NSApplication.shared().delegate as! MainViewController
         
         let menu = NSMenu()
         menu.addItem(NSMenuItem(title: "退出", action: #selector(delegate.quit), keyEquivalent: "q"))
-        NSMenu.popUpContextMenu(menu, withEvent: NSApp.currentEvent!, forView: sender)
+        NSMenu.popUpContextMenu(menu, with: NSApp.currentEvent!, for: sender)
     }
     
 }

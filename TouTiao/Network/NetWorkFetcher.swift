@@ -13,22 +13,22 @@ import Fuzi
 class NetWorkFetcher: NSObject {
     let url = "http://toutiao.io/"
 
-    func getReleases(done: (model: [TTModel]?) -> ()) {
-        Alamofire.request(.GET, url)
+    func getReleases(_ done: @escaping (_ model: [TTModel]?) -> ()) {
+        Alamofire.request(url, method: .get )
             .responseString { response in
                 guard let html = response.result.value else {
-                    return done(model: nil)
+                    return done(nil)
                 }
                 
                 let document = try? XMLDocument(string: html)
                 let body = document!.xpath("//div[@class='post']")
                 
                 let releases = body.map { return self.release($0) }.flatMap { return $0 }
-                done(model: releases)
+                done(releases)
         }
     }
     
-    func release(element: XMLElement) -> [TTModel] {
+    func release(_ element: Fuzi.XMLElement) -> [TTModel] {
         var model = [TTModel]()
         var url = String()
         var href = String()
@@ -39,7 +39,7 @@ class NetWorkFetcher: NSObject {
         
         let pth = element.xpath(".//div[@class='btn-group-vertical upvote']")
         pth.forEach {tt in
-            for (index, element) in tt.xpath(".//span").enumerate() {
+            for (index, element) in tt.xpath(".//span").enumerated() {
                 if index == 0 {
                     like = element.stringValue
                     break
@@ -50,13 +50,13 @@ class NetWorkFetcher: NSObject {
         let pth1 = element.xpath(".//div[@class='meta']/span")
         pth1.forEach {tt in
             let value = tt.stringValue
-            comment = value.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+            comment = value.trimmingCharacters(in: .whitespacesAndNewlines)
         }
         
         let pth2 = element.xpath(".//div[@class='meta']")
         pth2.forEach {tt in
-            let value = tt.stringValue.componentsSeparatedByString("\n")
-            url = value[1].stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+            let value = tt.stringValue.components(separatedBy: "\n")
+            url = value[1].trimmingCharacters(in: .whitespacesAndNewlines)
 
         }
     

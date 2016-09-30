@@ -19,19 +19,19 @@ class TTCell: NSTableCellView {
         super.awakeFromNib()
         
         wantsLayer = true
-        layer?.backgroundColor = NSColor.whiteColor().CGColor
+        layer?.backgroundColor = NSColor.white.cgColor
     }
     
     
-    func configureData(model: TTModel) {
+    func configureData(_ model: TTModel) {
         self.titleTextView.stringValue = model.title
         self.urlTextField.stringValue = model.url
         self.voteTextField.stringValue = model.like
         self.commentTextField.stringValue = model.comment
     }
 
-    override func drawRect(dirtyRect: NSRect) {
-        super.drawRect(dirtyRect)
+    override func draw(_ dirtyRect: NSRect) {
+        super.draw(dirtyRect)
 
     }
     
