@@ -8,37 +8,37 @@
 
 import Cocoa
 
-extension NSDate
+extension Date
 {
     func hour() -> Int
     {
         //Get Hour
-        let calendar = NSCalendar.currentCalendar()
-        let components = calendar.components(.Hour, fromDate: self)
+        let calendar = Calendar.current
+        let components = (calendar as NSCalendar).components(.hour, from: self)
         let hour = components.hour
         
         //Return Hour
-        return hour
+        return hour!
     }
     
     
     func minute() -> Int
     {
         //Get Minute
-        let calendar = NSCalendar.currentCalendar()
-        let components = calendar.components(.Minute, fromDate: self)
+        let calendar = Calendar.current
+        let components = (calendar as NSCalendar).components(.minute, from: self)
         let minute = components.minute
         
         //Return Minute
-        return minute
+        return minute!
     }
     
     func toShortTimeString() -> String
     {
         //Get Short Time String
-        let formatter = NSDateFormatter()
-        formatter.timeStyle = .ShortStyle
-        let timeString = formatter.stringFromDate(self)
+        let formatter = DateFormatter()
+        formatter.timeStyle = .short
+        let timeString = formatter.string(from: self)
         //Return Short Time String
         return timeString
     }
