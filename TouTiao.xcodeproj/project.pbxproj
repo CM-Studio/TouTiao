@@ -65,6 +65,7 @@
 		74D0AD291CC7A47F00126706 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 		74D0AD2A1CC7A47F00126706 /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
 		74E7E49A1CCCB64B00DCAE46 /* TTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTCell.swift; sourceTree = "<group>"; };
+		90F655A61DAB7CC100EB9091 /* TouTiao.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouTiao.entitlements; sourceTree = "<group>"; };
 		975E04C1B55E348097BD00B9 /* Pods-TouTiao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouTiao.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouTiao/Pods-TouTiao.release.xcconfig"; sourceTree = "<group>"; };
 		C000B9EB5493E17915C8E77D /* Pods_TouTiao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouTiao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,6 +157,7 @@
 		0673B7391CAE2D06001FBF40 /* TouTiao */ = {
 			isa = PBXGroup;
 			children = (
+				90F655A61DAB7CC100EB9091 /* TouTiao.entitlements */,
 				74355EC21CCA439B0029999B /* Service */,
 				06541A2C1CBB619B004312AC /* Network */,
 				06541A271CBB5EDE004312AC /* Extension */,
@@ -220,12 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0673B75A1CAE2D06001FBF40 /* Build configuration list for PBXNativeTarget "TouTiao" */;
 			buildPhases = (
-				52B0ED3AB7C7A3109812DE9C /* 📦 Check Pods Manifest.lock */,
+				52B0ED3AB7C7A3109812DE9C /* [CP] Check Pods Manifest.lock */,
 				0673B7331CAE2D06001FBF40 /* Sources */,
 				0673B7341CAE2D06001FBF40 /* Frameworks */,
 				0673B7351CAE2D06001FBF40 /* Resources */,
-				B91C8649C7C920E3ADBF3C3D /* 📦 Embed Pods Frameworks */,
-				92770A1D9D011A674360C60F /* 📦 Copy Pods Resources */,
+				B91C8649C7C920E3ADBF3C3D /* [CP] Embed Pods Frameworks */,
+				92770A1D9D011A674360C60F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,6 +288,11 @@
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = TMXHMJ5NQ8;
 						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					0673B7451CAE2D06001FBF40 = {
 						CreatedOnToolsVersion = 7.3;
@@ -347,29 +354,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		52B0ED3AB7C7A3109812DE9C /* 📦 Check Pods Manifest.lock */ = {
+		52B0ED3AB7C7A3109812DE9C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		92770A1D9D011A674360C60F /* 📦 Copy Pods Resources */ = {
+		92770A1D9D011A674360C60F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,14 +384,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouTiao/Pods-TouTiao-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B91C8649C7C920E3ADBF3C3D /* 📦 Embed Pods Frameworks */ = {
+		B91C8649C7C920E3ADBF3C3D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,11 +549,12 @@
 			baseConfigurationReference = 57BAB250D52BE0BE8AE45323 /* Pods-TouTiao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TouTiao/TouTiao.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TouTiao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesths.TouTiao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -557,11 +565,12 @@
 			baseConfigurationReference = 975E04C1B55E348097BD00B9 /* Pods-TouTiao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TouTiao/TouTiao.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TouTiao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesths.TouTiao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
