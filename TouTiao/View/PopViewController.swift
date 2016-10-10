@@ -9,6 +9,7 @@
 import Cocoa
 import Fuzi
 import MBProgressHUD_OSX
+import BSRefreshableScrollView
 //import Kanna
 
 class PopViewController: NSViewController {
@@ -17,6 +18,9 @@ class PopViewController: NSViewController {
     let webHome = "https://toutiao.io"
     @IBOutlet weak var tableView: NSTableView!
     @IBOutlet weak var timeTextView: NSTextField!
+
+    @IBOutlet weak var scrollView: BSRefreshableScrollView!
+
 
     @IBOutlet weak var headerView: NSView! {
         didSet {
@@ -39,14 +43,30 @@ class PopViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-        
+        self.scrollView.refreshableSides = 1 | 2
+
         let loadingNotification:MBProgressHUD
         loadingNotification = MBProgressHUD.showAdded(to: self.view, animated: true)
         loadingNotification.labelText = "Loading"
         
-        
         NotificationCenter.default.addObserver(self, selector: #selector(PopViewController.reloadData), name:NSNotification.Name(rawValue: "Reload"), object: nil)
     }
+    
+    
+    func scrollView(_ aScrollView: BSRefreshableScrollView!, startRefreshSide refreshableSide: UInt) -> Bool {
+        if refreshableSide == 1 {
+            self.reloadData()
+            return true
+        }
+        else if refreshableSide == 2 {
+            self.reloadData()
+            return true
+        }
+        
+        return false
+    }
+    
+    
     
     @IBAction func toggleSettingButton(_ sender: NSView) {
         SettingMenuAction.perform(sender)
@@ -60,6 +80,8 @@ class PopViewController: NSViewController {
             result in
             self.model = result!
             MBProgressHUD.hideAllHUDs(for: self.view, animated: true)
+            self.scrollView.stopRefreshingSide(1)
+            self.scrollView.stopRefreshingSide(2)
             self.tableView.reloadData()
             self.setTime()
         }
