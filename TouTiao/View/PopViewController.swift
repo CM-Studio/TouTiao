@@ -8,6 +8,7 @@
 
 import Cocoa
 import Fuzi
+import MBProgressHUD_OSX
 //import Kanna
 
 class PopViewController: NSViewController {
@@ -38,6 +39,12 @@ class PopViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        
+        let loadingNotification:MBProgressHUD
+        loadingNotification = MBProgressHUD.showAdded(to: self.view, animated: true)
+        loadingNotification.labelText = "Loading"
+        
+        
         NotificationCenter.default.addObserver(self, selector: #selector(PopViewController.reloadData), name:NSNotification.Name(rawValue: "Reload"), object: nil)
     }
     
@@ -52,6 +59,7 @@ class PopViewController: NSViewController {
         fetcher.getReleases {
             result in
             self.model = result!
+            MBProgressHUD.hideAllHUDs(for: self.view, animated: true)
             self.tableView.reloadData()
             self.setTime()
         }
