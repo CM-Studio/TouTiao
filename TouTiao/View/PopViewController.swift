@@ -84,7 +84,7 @@ extension PopViewController: NSTableViewDataSource {
 extension PopViewController: NSTableViewDelegate {
     func tableViewSelectionDidChange(_ notification: Notification) {
         let table = notification.object as! NSTableView
-        print(URL(string: model[table.selectedRow].href))
+        print(URL(string: model[table.selectedRow].href)!)
         NSWorkspace.shared().open(URL(string: webHome + model[table.selectedRow].href)!)
     }
     
