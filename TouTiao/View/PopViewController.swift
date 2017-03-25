@@ -14,9 +14,38 @@ class PopViewController: NSViewController {
     let fetcher = NetWorkFetcher()
     var model = [TTModel]()
     let webHome = "https://toutiao.io"
+    var postUrl : String = ""
+    
     @IBOutlet weak var tableView: NSTableView!
     @IBOutlet weak var timeTextView: NSTextField!
 
+    @IBAction func toutiaoPost(_ sender: Any) {
+        postUrl = fetcher.url
+        reloadData()
+    }
+
+    @IBAction func hotPost(_ sender: Any) {
+        postUrl = fetcher.Hoturl
+        reloadData()
+    }
+    
+    @IBAction func JavaPost(_ sender: Any) {
+        postUrl = fetcher.Javaurl
+        reloadData()
+    }
+    
+    @IBAction func iOSPost(_ sender: Any) {
+        postUrl = fetcher.iOSurl
+        reloadData()
+    }
+    
+
+    @IBAction func WebPost(_ sender: Any) {
+        postUrl = fetcher.Weburl
+        reloadData()
+    }
+    
+    
     @IBOutlet weak var headerView: NSView! {
         didSet {
             headerView.wantsLayer = true
@@ -39,17 +68,18 @@ class PopViewController: NSViewController {
         super.viewDidLoad()
         // Do view setup here.
         NotificationCenter.default.addObserver(self, selector: #selector(PopViewController.reloadData), name:NSNotification.Name(rawValue: "Reload"), object: nil)
+        
+        postUrl = fetcher.url
     }
     
     @IBAction func toggleSettingButton(_ sender: NSView) {
-        SettingMenuAction.perform(sender)
-    }
-    @IBAction func gotoTouTiaoWeb(_ sender: AnyObject) {
-                NSWorkspace.shared().open(URL(string: webHome)!)
+        let menu = SettingMenuAction()
+        menu.perform(sender)
     }
     
     func reloadData() {
-        fetcher.getReleases {
+
+        fetcher.getReleases(url: postUrl) {
             result in
             self.model = result!
             self.tableView.reloadData()
@@ -61,7 +91,6 @@ class PopViewController: NSViewController {
         let currentDate = Date()
         timeTextView.stringValue = "更新时间 \(currentDate.toShortTimeString())"
     }
-    
 
 }
 
@@ -72,8 +101,7 @@ extension PopViewController: NSTableViewDataSource {
         return model.count
     }
 
-    
-    @objc(tableView:viewForTableColumn:row:) func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
+    func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
         let cellView = tableView.make(withIdentifier: tableColumn!.identifier, owner: tableView) as! TTCell
         cellView.configureData(self.model[row])
         return cellView

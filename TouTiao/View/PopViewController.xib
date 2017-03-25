@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="system font weights other than Regular or Bold" minToolsVersion="7.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="PopViewController" customModule="TouTiao" customModuleProvider="target">
@@ -25,9 +27,11 @@
             <subviews>
                 <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fVh-zc-72y">
                     <rect key="frame" x="0.0" y="291" width="388" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <subviews>
                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFt-nT-nDr">
                             <rect key="frame" x="6" y="13" width="182" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="更新时间" id="3dA-le-L8n">
                                 <font key="font" size="13" name=".PingFangSC-Regular"/>
                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -38,6 +42,7 @@
                 </customView>
                 <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="70" horizontalPageScroll="10" verticalLineScroll="70" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" scrollerKnobStyle="light" translatesAutoresizingMaskIntoConstraints="NO" id="ppl-dX-oz4">
                     <rect key="frame" x="0.0" y="39" width="388" height="253"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="Y9p-SQ-hIT">
                         <rect key="frame" x="1" y="1" width="386" height="251"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,6 +74,7 @@
                                                 <subviews>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" preferredMaxLayoutWidth="369" translatesAutoresizingMaskIntoConstraints="NO" id="VYl-mj-lPy">
                                                         <rect key="frame" x="3" y="27" width="374" height="17"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" enabled="NO" refusesFirstResponder="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="left" title="Tagline" usesSingleLineMode="YES" id="KC4-ee-JfK">
                                                             <font key="font" metaFont="system"/>
                                                             <color key="textColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -77,6 +83,7 @@
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" preferredMaxLayoutWidth="369" translatesAutoresizingMaskIntoConstraints="NO" id="k7s-DT-8A0">
                                                         <rect key="frame" x="3" y="46" width="374" height="17"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" enabled="NO" refusesFirstResponder="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" title="Title" usesSingleLineMode="YES" id="Kd9-aE-BZO">
                                                             <font key="font" metaFont="systemSemibold" size="13"/>
                                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -85,6 +92,7 @@
                                                     </textField>
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wTS-AE-tX9">
                                                         <rect key="frame" x="75" y="7" width="30" height="15"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="9999" id="UrE-Bq-4VL">
                                                             <font key="font" metaFont="system" size="10"/>
                                                             <color key="textColor" name="gridColor" catalog="System" colorSpace="catalog"/>
@@ -93,6 +101,7 @@
                                                     </textField>
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6bw-fY-FNA" userLabel="Upvote Count Label">
                                                         <rect key="frame" x="18" y="7" width="30" height="15"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="9999" id="IKD-1Q-c22">
                                                             <font key="font" metaFont="system" size="10"/>
                                                             <color key="textColor" name="gridColor" catalog="System" colorSpace="catalog"/>
@@ -101,10 +110,12 @@
                                                     </textField>
                                                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E1t-Ye-DJX" userLabel="Upvote Imagage View">
                                                         <rect key="frame" x="3" y="8" width="15" height="15"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="icon-upvote" id="ejA-cb-jpa"/>
                                                     </imageView>
                                                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3wI-Ch-oQ4" userLabel="Comment Image View">
                                                         <rect key="frame" x="58" y="8" width="15" height="15"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="comment-icon" id="VoG-ib-3yQ"/>
                                                     </imageView>
                                                 </subviews>
@@ -124,7 +135,6 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </clipView>
                     <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="I7T-V4-zCI">
                         <rect key="frame" x="-100" y="-100" width="223" height="15"/>
@@ -137,17 +147,11 @@
                 </scrollView>
                 <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ra6-WO-HWt">
                     <rect key="frame" x="0.0" y="0.0" width="388" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <subviews>
-                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbv-nk-V7u">
-                            <rect key="frame" x="44" y="12" width="69" height="17"/>
-                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="开发者头条" id="2HT-Cf-bzr">
-                                <font key="font" size="13" name=".PingFangSC-Regular"/>
-                                <color key="textColor" name="highlightColor" catalog="System" colorSpace="catalog"/>
-                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                            </textFieldCell>
-                        </textField>
                         <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdH-4K-wwI">
-                            <rect key="frame" x="351" y="12" width="17" height="17"/>
+                            <rect key="frame" x="353" y="11" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="icon-settings" imagePosition="only" alignment="center" state="on" imageScaling="proportionallyUpOrDown" inset="2" id="RcA-wf-TKD">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="system"/>
@@ -158,18 +162,83 @@
                         </button>
                         <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vF0-MR-36f">
                             <rect key="frame" x="12" y="7" width="26" height="26"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="icon" imagePosition="only" alignment="center" state="on" imageScaling="proportionallyUpOrDown" inset="2" id="Uje-y5-cIl">
                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
                             <connections>
-                                <action selector="gotoTouTiaoWeb:" target="-2" id="bmJ-6m-HLR"/>
+                                <action selector="toutiaoPost:" target="-2" id="MAV-F6-cBu"/>
+                            </connections>
+                        </button>
+                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lUs-5b-05B" customClass="TTButton" customModule="TouTiao" customModuleProvider="target">
+                            <rect key="frame" x="46" y="8" width="71" height="26"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="smallSquare" title="热门分享" bezelStyle="smallSquare" alignment="center" imageScaling="proportionallyDown" inset="2" id="TqP-ot-uxP">
+                                <behavior key="behavior" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                    <color key="value" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="hotPost:" target="-2" id="DuE-ef-I7Z"/>
+                            </connections>
+                        </button>
+                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zci-gl-tyM" customClass="TTButton" customModule="TouTiao" customModuleProvider="target">
+                            <rect key="frame" x="231" y="8" width="33" height="26"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="bevel" title="Java" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="bvb-vH-9XU">
+                                <behavior key="behavior" lightByContents="YES"/>
+                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                            </buttonCell>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                    <color key="value" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="JavaPost:" target="-2" id="Zy9-Um-YPw"/>
+                            </connections>
+                        </button>
+                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4bS-iI-Hnh" customClass="TTButton" customModule="TouTiao" customModuleProvider="target">
+                            <rect key="frame" x="272" y="8" width="33" height="26"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="bevel" title="iOS" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="msH-MR-ro5">
+                                <behavior key="behavior" lightByContents="YES"/>
+                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                            </buttonCell>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                    <color key="value" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="iOSPost:" target="-2" id="2UM-RY-y3x"/>
+                            </connections>
+                        </button>
+                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9RX-vw-4LR" customClass="TTButton" customModule="TouTiao" customModuleProvider="target">
+                            <rect key="frame" x="313" y="8" width="33" height="26"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="bevel" title="前端" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="iFI-rY-Nv4">
+                                <behavior key="behavior" lightByContents="YES"/>
+                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                            </buttonCell>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                    <color key="value" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="WebPost:" target="-2" id="3qq-i1-sPV"/>
                             </connections>
                         </button>
                     </subviews>
                 </customView>
             </subviews>
-            <point key="canvasLocation" x="296" y="348.5"/>
+            <point key="canvasLocation" x="-448" y="135"/>
         </customView>
     </objects>
     <resources>

@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TouTiaoLauncher.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0632F8CD1E8681EE002A7058</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0673B7361CAE2D06001FBF40</key>
 		<dict>
 			<key>primary</key>

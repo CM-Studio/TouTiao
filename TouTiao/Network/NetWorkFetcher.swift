@@ -11,9 +11,15 @@ import Alamofire
 import Fuzi
 
 class NetWorkFetcher: NSObject {
-    let url = "http://toutiao.io/"
+    
+    let url = "https://toutiao.io/"
+    let Hoturl = "https://toutiao.io/posts/hot/7"
 
-    func getReleases(_ done: @escaping (_ model: [TTModel]?) -> ()) {
+    let Javaurl = "https://toutiao.io/c/java"
+    let iOSurl = "https://toutiao.io/c/ios"
+    let Weburl = "https://toutiao.io/c/fe"
+
+    func getReleases(url: String, _ done: @escaping (_ model: [TTModel]?) -> ()) {
         Alamofire.request(url, method: .get )
             .responseString { response in
                 guard let html = response.result.value else {

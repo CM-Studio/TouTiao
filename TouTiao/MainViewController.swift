@@ -39,13 +39,13 @@ class MainViewController: NSViewController {
     }
     
     func addToLoginItems() {
-        Process.launchedProcess(
-            launchPath: "/usr/bin/osascript",
-            arguments: [
-                "-e",
-                "tell application \"System Events\" to make login item at end with properties {path:\"/Applications/TouTiao.app\", hidden:false, name:\"Compute for TouTiao\"}"
-            ]
-        )
+//        Process.launchedProcess(
+//            launchPath: "/usr/bin/osascript",
+//            arguments: [
+//                "-e",
+//                "tell application \"System Events\" to make login item at end with properties {path:\"/Applications/TouTiao.app\", hidden:false, name:\"Compute for TouTiao\"}"
+//            ]
+//        )
     }
 
     func togglePopover(_ sender: AnyObject?) {
